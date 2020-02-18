@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+@import url("vendor/reset.css");
+@import url("components/header.css");
+@import url("pages/quiz.css");
+@import url("pages/register.css");
+@import url("pages/profile.css");
+@import url("pages/playing.css");

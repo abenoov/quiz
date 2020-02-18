@@ -1,0 +1,59 @@
+#question{
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#question h1{
+	display: block;
+	text-align: center;
+	font-size: 50px;
+}
+
+#answers{
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#answers div {
+	width: 40%;
+	height: 40%;
+	font-size: 30px;
+	background: OrangeRed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: .3s;
+}
+
+#answers div h1{
+	display: block;
+}
+
+#answers div+div {
+	background: SkyBlue;
+}
+#answers div+div+div {
+	background: Orange;
+}
+#answers div+div+div+div {
+	background: LightGreen;
+}
+
+#answers div:hover{
+	width: 42%;
+	height: 42%;
+}
+
+#timer{
+	position: fixed;
+	top: 200px;
+	right: 400px;
+	font-size: 300px;
+}

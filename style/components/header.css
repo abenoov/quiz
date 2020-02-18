@@ -1,0 +1,128 @@
+.back{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation: background_changing 15s infinite;
+}
+
+.pin{
+	width: 300px;
+	height: 330px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.label_q{
+	line-height: 120px;
+	color: white;
+	animation: q 10s infinite;
+}
+
+.label_u{
+	animation: u 10s infinite;
+	line-height: 80px;
+	color: white;
+}
+
+.label_i{
+	animation: i 10s infinite;
+	line-height: 130px;
+	color: white;
+}
+
+.label_z{
+	animation: z 10s infinite;
+	line-height: 120px;
+	color: white;
+}
+
+.pin_form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.pin_form input{
+	width: 80%;
+	border: 3px grey solid;
+	line-height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	transition: .7s;
+}
+
+.pin_form button{
+	margin-top: 10px;
+	background: #333;
+	border: 5px #333 solid;
+	width: 80%;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+.pin_form input:focus{
+	outline: none;
+	border: 3px black solid;
+}
+
+.pin_form button:focus{
+	outline: none;
+	border: 2px white solid;
+}
+
+.footer{
+	width: 300px;
+	position: fixed;
+	bottom: 10px;
+	text-align: center;
+}
+
+.footer a{
+	color: white;
+	font-size: 16px;
+}
+
+.footer_terms-privacy span{
+	font-size: 20px;
+	color: white;
+}
+
+@keyframes background_changing {
+	0% {background: red;}
+	25% {background: gold;}
+	50% {background: green;}
+	75% {background: orange;}
+	100% {background: red;}
+}
+
+@keyframes q {
+	0% {font-size: 90px;}
+	50% {font-size: 120px;}
+	100% {font-size: 90px;}
+}
+
+@keyframes u {
+	0% {font-size: 130px;}
+	50% {font-size: 100px;}
+	100% {font-size: 130px;}
+}
+
+@keyframes i {
+	0% {font-size: 80px;}
+	50% {font-size: 110px;}
+	100% {font-size: 80px;}
+}
+
+@keyframes z {
+	0% {font-size: 120px;}
+	50% {font-size: 100px;}
+	100% {font-size: 120px;}
+}

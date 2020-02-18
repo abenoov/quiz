@@ -1,0 +1,117 @@
+.register_header{
+	width: 100%;
+	background: #333;
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	padding: 0 30px;
+}
+
+.register_header a{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	display: block;
+	margin: auto 0;
+}
+
+.register_login{
+	display: flex;
+}
+
+.register_login h1{
+	color: white;
+	font-size: 15px;
+	display: block;
+	margin: auto 0;
+	margin-right: 20px;
+}
+
+.register_login a{
+	background: white;
+	color: black;
+	display: block;
+	width: 100px;
+	line-height: 40px;
+	border-radius: 5px;
+	font-size: 18px;
+	box-shadow: 0px 5px 3px 0px rgba(255, 255, 255, 0.75);
+	transition: .1s;
+}
+.register_login a:hover{
+	box-shadow: none;
+	background: Gainsboro;
+}
+
+.register_choose{
+	max-width: 300px; 
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.register_choose h1{
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.register_choose__choose{
+	display: flex;
+	justify-content: space-between;
+}
+.register_choose a{
+	font-size: 30px;
+	display: block;
+	line-height: 100px;
+	width: 45%;
+	text-align: center;
+	transition: .3s;
+	border-radius: 5px;
+}
+
+.teacher{
+	background: gold;
+	box-shadow: 0px 10px 5px 0px rgba(255, 222, 114, 0.75);
+}
+
+.student{
+	background: DeepSkyBlue;
+	box-shadow: 0px 10px 5px 0px rgba(66, 166, 255, 0.75);
+}
+
+.register_choose a:hover{
+	box-shadow: none;
+}
+
+.enter{
+	max-width: 200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+
+.register_form input{
+	margin-bottom: 20px;
+	padding: 5px;
+}
+.register_form input:focus {
+	outline: none;
+	border: 3px solid #9e9e9e;
+}
+
+.register_form button{
+	border: none;
+	display: block;
+	margin: 0 auto;
+	line-height: 50px;
+	width: 100%;
+	transition: .3s;
+	font-size: 20px;
+	font-weight: 700;
+	border-radius: 4px;
+}
+.register_form button:hover{
+	background: #333;
+	color: white;
+}
+
